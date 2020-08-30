@@ -1,35 +1,35 @@
 package com.carlosfilipe.zup.bootcamp.fase3.model;
 
-import java.time.LocalDate;
-
-public class Perfil extends Usuario {
-
-    public Perfil(Long id, String nome, String nomeUsuario, String email, String telefone, String senha,
-            LocalDate dataCadastro) {
-        super(id, nome, nomeUsuario, email, telefone, senha, dataCadastro);
-    }
-
-    private static final long serialVersionUID = 1L;
-
-    private String fotoPerfil;
-
-    private String biografia;
-
-
-    public String getFotoPerfil() {
-        return fotoPerfil;
-    }
-
-    public void setFotoPerfil(String fotoPerfil) {
-        this.fotoPerfil = fotoPerfil;
-    }
-
-    public String getBiografia() {
-        return biografia;
-    }
-
-    public void setBiografia(String biografia) {
-        this.biografia = biografia;
-    }
+public class Perfil  {
+    
+    String biografia;
+	String telefone;
+	String sexo;
+	String website;
+	
+	public String getBiografia() {
+		return biografia;
+	}
+	public void setBiografia(String biografia) {
+		this.biografia = biografia;
+	}
+	public String getTelefone() {
+		return telefone;
+	}
+	public void setTelefone(String telefone) {
+		this.telefone = telefone;
+	}
+	public String getSexo() {
+		return sexo;
+	}
+	public void setSexo(String sexo) {
+		this.sexo = sexo;
+	}
+	public String getWebsite() {
+		return website;
+	}
+	public void setWebsite(String website) {
+		this.website = website;
+	}
     
 }

@@ -4,13 +4,9 @@ package com.carlosfilipe.zup.bootcamp.fase3.model;
 public class DetalhesErro {
 
     private String titulo;
-
     private Long status;
-
     private Long timestamp;
-
     private String mensagemDesenvolvedor;
-
 
     public String getTitulo() {
         return titulo;
